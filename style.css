@@ -1,0 +1,29 @@
+.slider-image img {
+    max-width: 100%;
+}
+
+#slider-container {
+    max-width: 992px;
+    margin: auto;
+}
+
+#slider.hide {
+    display: none;
+}
+
+#controls {
+    text-align: center;
+}
+
+#controls > div {
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+
+#controls > div:last-of-type {
+    margin-right: 0;
+}
